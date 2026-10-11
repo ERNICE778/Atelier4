@@ -20,3 +20,17 @@ class Couleur{
 
   
 }
+
+
+void main(){
+  Couleur C1 =Couleur.rouge();
+  Couleur C2 =Couleur.vert();
+  Couleur C3 =Couleur.bleu();
+
+
+C1.afficherCouleur();
+C2.afficherCouleur();
+C3.afficherCouleur();
+
+
+} 
