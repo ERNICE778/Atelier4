@@ -31,3 +31,18 @@ class Rectangle extends Forme{
     return longueur * largeur ;
   }
 }
+
+
+void main(){
+  Forme C1=Cercle(69.25);
+  Forme R1=Rectangle(63.51, 25.75);
+
+  C1.afficherMessage();
+  print("l'aire du cercle est : ${C1.calculerAire()}");
+  print("\n");
+  R1.afficherMessage();
+  print("l'aire du rectangle est : ${R1.calculerAire()}");
+
+
+
+}
