@@ -8,3 +8,7 @@ class Compte{
 
   
 }
+
+String get solde{
+  return "${ _solde.toStringAsFixed(2)}\$";
+}
