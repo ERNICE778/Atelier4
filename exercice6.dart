@@ -33,3 +33,20 @@ class BaseDeDonnees implements Connectable{
 }
 
 
+void main(){
+  List <Connectable> services =[
+    ServeurAPI(),
+    BaseDeDonnees(),
+  ];
+
+for (var s in services ){
+  print("\n");
+  s.connecter("Ernice");
+  
+  s.deconnecter();
+
+}
+
+}
+
+
