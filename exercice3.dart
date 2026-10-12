@@ -18,3 +18,11 @@ void  depot (double montant){
 }
 
 }
+
+void main(){
+
+
+var C1=Compte("145FSD231");
+    C1.depot(1500.25);
+    print ("Solde: ${C1.solde}");
+}
