@@ -22,6 +22,12 @@ class Livre{
 
 }
 
+class Roman extends Livre{
+  String genre;
+  Roman(super.titre,super.auteur,this.genre);
+  
+}
+
 void main(){
   var L1=Livre("Les impatientes","Djaila Amadou Amal");
   var L2=Livre("Petit Jo,enfant des rues","Evelyne Mpoudi Ngolle");
