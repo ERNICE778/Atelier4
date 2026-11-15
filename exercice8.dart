@@ -39,7 +39,24 @@ void main(){
   var L2=Livre("Petit Jo,enfant des rues","Evelyne Mpoudi Ngolle");
   var L3=Livre("Trois pretendants ... un mari","Guillaume Oyônô Mbia");
 
+print("\n");
   L1.afficherInfos();
   L2.afficherInfos();
   L3.afficherInfos();
-}
+
+print("\n");
+  var R1=Roman("Les impatientes","Djaila Amadou Amal","feministe");
+  var R2=Roman("Le Vieux Nègre et la Médaille", "Ferdinand Oyono", "satirique et anticolonial");
+  var R3=Roman("Temps de chien", "Patrice Nganang", "Roman satirique et politique");
+
+
+print("\n");
+  R1.afficherInfos();
+  R2.afficherInfos();
+  R3.afficherInfos();
+
+
+print("\n");
+
+  Livre.afficherNombreLivres();
+} 
